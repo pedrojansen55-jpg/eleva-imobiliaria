@@ -301,12 +301,12 @@ export default function Home() {
 
     {/* FOTO */}
     <div className="relative">
-      <div className="absolute -bottom-4 -left-4 h-32 w-32 rounded-3xl border border-[#C37B49]/30"></div>
+      
 
       <img
         src="/elevaimob_mulher.jpeg"
         alt="Andreza Pinheiro, Diretora Executiva da Eleva Imobiliária"
-       className="relative h-[720px] w-full scale-[1.06] rounded-3xl object-contain object-top shadow-xl"
+      className="relative h-auto w-full rounded-3xl object-cover"
       />
     </div>
 
