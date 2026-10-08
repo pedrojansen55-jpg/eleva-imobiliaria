@@ -65,14 +65,14 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 
               <a
-                href="#imoveis"
+                href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Eleva%20Imobili%C3%A1ria%20e%20gostaria%20de%20conhecer%20as%20oportunidades%20dispon%C3%ADveis."
                 className="rounded-lg bg-[#283765] px-7 py-4 text-center font-semibold text-white transition hover:bg-[#1E2948]"
               >
                 Ver imóveis
               </a>
 
               <a
-                href="https://wa.me/5581994897832"
+                href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Eleva%20Imobili%C3%A1ria%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border border-slate-300 bg-white px-7 py-4 text-center font-semibold text-slate-900 transition hover:border-slate-400 hover:bg-[#F5F1E8]"
@@ -155,7 +155,7 @@ export default function Home() {
   </p>
 
   <a
-    href="https://wa.me/5581994897832"
+    href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Eleva%20Imobili%C3%A1ria%20e%20gostaria%20de%20conhecer%20as%20oportunidades%20dispon%C3%ADveis."
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex rounded-lg bg-[#283765] px-6 py-3 font-semibold text-white transition hover:bg-[#1f2c50]"
@@ -230,6 +230,8 @@ export default function Home() {
 
     <p className="mt-2 text-sm leading-6 text-slate-500">
       2 e 3 quartos com suíte e varanda.
+      <br />
+      Candeias, Jaboatão dos Guararapes
       <br />
       Renda familiar a partir de R$ 5.500.
     </p>
