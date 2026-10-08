@@ -193,7 +193,7 @@ export default function Home() {
                 <p className="mt-2 text-sm leading-6 text-slate-500">
   2 e 3 quartos • Caxangá, Recife
   <br />
-  A partir de R$ 400 mil
+  A partir de R$ 362 mil
 </p>
 
                 <a
