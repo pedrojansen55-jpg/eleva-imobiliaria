@@ -167,7 +167,7 @@ export default function Home() {
           </div>
 
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
 
             {/* CARD 1 */}
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
@@ -231,7 +231,7 @@ export default function Home() {
     <p className="mt-2 text-sm leading-6 text-slate-500">
       2 e 3 quartos com suíte e varanda.
       <br />
-      Candeias, Jaboatão dos Guararapes
+      Candeias • Jaboatão dos Guararapes
       <br />
       Renda familiar a partir de R$ 5.500.
     </p>
@@ -289,7 +289,48 @@ export default function Home() {
               </div>
             </div>
 
-          </div>
+          
+{/* CARD 4 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
+  <div className="h-56 overflow-hidden">
+    <img
+      src="/vale dos guara/vale dos guara.png"
+      alt="Vale dos Guararapes"
+      className="h-full w-full object-cover"
+    />
+  </div>
+
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
+      Empreendimento
+    </p>
+
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Vale dos Guararapes
+    </h3>
+
+    <p className="mt-2 text-sm leading-6 text-slate-500">
+      2 quartos, sendo 1 suíte
+    </p>
+
+    <p className="text-sm leading-6 text-slate-500">
+      Piedade • Jaboatão dos Guararapes
+    </p>
+
+    <p className="text-sm leading-6 text-slate-500">
+      A partir de R$ 359 mil
+    </p>
+
+    <a
+      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Vale%20dos%20Guararapes.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-slate-50"
+    >
+      Quero conhecer o Vale dos Guararapes
+    </a>
+  </div>
+</div></div>
 
         </div>
       </section>
