@@ -170,6 +170,7 @@ export default function Home() {
           <div className="mt-12 grid gap-6 md:grid-cols-2">
 
            
+
 {/* CARD 1 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
@@ -189,10 +190,11 @@ export default function Home() {
       Caxangá Life Club
     </h3>
 
-    <div className="mt-2 text-sm leading-6 text-slate-500">
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 e 3 quartos</p>
       <p>Caxangá • Recife</p>
-      <p>A partir de R$ 362 mil</p>
+      <p>2 quartos: R$ 362.000,00</p>
+      <p>3 quartos: R$ 411.000,00</p>
     </div>
 
     <a
@@ -225,10 +227,11 @@ export default function Home() {
       Candeias Life Club
     </h3>
 
-    <div className="mt-2 text-sm leading-6 text-slate-500">
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 e 3 quartos com suíte</p>
       <p>Candeias • Jaboatão dos Guararapes</p>
-      <p>Consulte os valores</p>
+      <p>2 quartos: R$ 329.700,00</p>
+      <p>3 quartos: R$ 356.100,00</p>
     </div>
 
     <a
@@ -261,10 +264,10 @@ export default function Home() {
       Bosque das Acácias
     </h3>
 
-    <div className="mt-2 text-sm leading-6 text-slate-500">
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 quartos com suíte reversível</p>
       <p>Dois Carneiros • Jaboatão dos Guararapes</p>
-      <p>Consulte os valores</p>
+      <p>A partir de R$ 219.000,00</p>
     </div>
 
     <a
@@ -297,10 +300,10 @@ export default function Home() {
       Vale dos Guararapes
     </h3>
 
-    <div className="mt-2 text-sm leading-6 text-slate-500">
-      <p>2 quartos, sendo 1 suíte</p>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos e 1 suíte</p>
       <p>Piedade • Jaboatão dos Guararapes</p>
-      <p>A partir de R$ 359 mil</p>
+      <p>A partir de R$ 359.000,00</p>
     </div>
 
     <a
