@@ -169,49 +169,46 @@ export default function Home() {
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
 
-            {/* CARD 1 */}
-            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+           
+{/* CARD 1 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img
+      src="/caxanga/novacapa.png.jpeg"
+      alt="Caxangá Life Club"
+      className="h-full w-full object-cover"
+    />
+  </div>
 
-              <div className="h-56 overflow-hidden">
-  <img
-    src="/caxanga/novacapa.png.jpeg"
-    alt="Caxangá Life Club"
-    className="h-full w-full object-cover"
-  />
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
+      Empreendimento
+    </p>
+
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Caxangá Life Club
+    </h3>
+
+    <div className="mt-2 text-sm leading-6 text-slate-500">
+      <p>2 e 3 quartos</p>
+      <p>Caxangá • Recife</p>
+      <p>A partir de R$ 362 mil</p>
+    </div>
+
+    <a
+      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Caxang%C3%A1%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
+    >
+      Quero conhecer o Caxangá
+    </a>
+  </div>
 </div>
 
-              <div className="p-6">
-
-                <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-                  Empreendimento
-                </p>
-
-                <h3 className="mt-2 text-xl font-bold text-slate-900">
-                  Caxangá Life Club
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-500">
-  2 e 3 quartos • Caxangá, Recife
-  <br />
-  A partir de R$ 362 mil
-</p>
-
-                <a
-                 href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Caxang%C3%A1%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-                >
-                  Quero conhecer o Caxangá
-                </a>
-
-              </div>
-            </div>
-
-
-            {/* CARD 2 */}
-<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-  <div className="flex h-56 items-center justify-center bg-slate-100">
+{/* CARD 2 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
     <img
       src="/candeias/candeiascapa.png.jpeg"
       alt="Candeias Life Club"
@@ -228,70 +225,61 @@ export default function Home() {
       Candeias Life Club
     </h3>
 
-    <p className="mt-2 text-sm leading-6 text-slate-500">
-      2 e 3 quartos com suíte e varanda.
-      <br />
-      Candeias • Jaboatão dos Guararapes
-      <br />
-      Renda familiar a partir de R$ 5.500.
-    </p>
+    <div className="mt-2 text-sm leading-6 text-slate-500">
+      <p>2 e 3 quartos com suíte</p>
+      <p>Candeias • Jaboatão dos Guararapes</p>
+      <p>Consulte os valores</p>
+    </div>
 
     <a
       href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Candeias%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
       target="_blank"
       rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-slate-50"
+      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
     >
       Quero conhecer o Candeias
     </a>
   </div>
 </div>
 
+{/* CARD 3 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img
+      src="/acacias/capamoral.png"
+      alt="Bosque das Acácias"
+      className="h-full w-full object-cover"
+    />
+  </div>
 
-            {/* CARD 3 */}
-            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
+      Empreendimento
+    </p>
 
-              <div className="h-56 overflow-hidden">
-  <img
-    src="/acacias/capamoral.png"
-    alt="Bosque das Acácias"
-    className="h-full w-full object-cover"
-  />
+    <h3 className="mt-2 text-xl font-bold text-slate-900">
+      Bosque das Acácias
+    </h3>
+
+    <div className="mt-2 text-sm leading-6 text-slate-500">
+      <p>2 quartos com suíte reversível</p>
+      <p>Dois Carneiros • Jaboatão dos Guararapes</p>
+      <p>Consulte os valores</p>
+    </div>
+
+    <a
+      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Bosque%20das%20Ac%C3%A1cias.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
+    >
+      Quero conhecer o Bosque das Acácias
+    </a>
+  </div>
 </div>
 
-              <div className="p-6">
-
-                <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-                  EMPREENDIMENTO
-                </p>
-
-                <h3 className="mt-2 text-xl font-bold text-slate-900">
-                  Bosque das Acácias
-                </h3>
-
-                <p className="mt-2 text-sm leading-6 text-slate-500">
-  2 quartos com suíte reversível e varanda.
-</p>
-
-<p className="text-sm leading-6 text-slate-500">
-  Dois Carneiros • Jaboatão dos Guararapes
-</p>
-
-                <a
-                  href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Bosque%20das%20Ac%C3%A1cias.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-                >
-                  Quero conhecer o Bosque das Acácias
-                </a>
-
-              </div>
-            </div>
-
-          
 {/* CARD 4 */}
-<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
     <img
       src="/vale dos guara/vale dos guara.png"
@@ -309,28 +297,23 @@ export default function Home() {
       Vale dos Guararapes
     </h3>
 
-    <p className="mt-2 text-sm leading-6 text-slate-500">
-      2 quartos, sendo 1 suíte
-    </p>
-
-    <p className="text-sm leading-6 text-slate-500">
-      Piedade • Jaboatão dos Guararapes
-    </p>
-
-    <p className="text-sm leading-6 text-slate-500">
-      A partir de R$ 359 mil
-    </p>
+    <div className="mt-2 text-sm leading-6 text-slate-500">
+      <p>2 quartos, sendo 1 suíte</p>
+      <p>Piedade • Jaboatão dos Guararapes</p>
+      <p>A partir de R$ 359 mil</p>
+    </div>
 
     <a
       href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Vale%20dos%20Guararapes.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
       target="_blank"
       rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-slate-50"
+      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
     >
       Quero conhecer o Vale dos Guararapes
     </a>
   </div>
-</div></div>
+</div>
+</div>
 
         </div>
       </section>
