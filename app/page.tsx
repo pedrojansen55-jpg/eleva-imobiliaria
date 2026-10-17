@@ -135,7 +135,7 @@ export default function Home() {
       {/* =========================
           IMÓVEIS
       ========================== */}
-      <section id="imoveis" className="bg-[#F7F3EA] py-20 lg:py-28">
+      <section id="imoveis" className="bg-[#F7F3EA] pt-8 pb-20 lg:pt-12 lg:pb-28">
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -170,6 +170,7 @@ export default function Home() {
           <div className="mt-12 grid gap-6 md:grid-cols-2">
 
            
+
 
 
 {/* CARD 1 */}
@@ -215,11 +216,7 @@ export default function Home() {
 {/* CARD 3 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img
-  src="/acacias/capamoral.png"
-  alt="Bosque das Acácias"
-  className="h-full w-full object-cover object-bottom"
-/>
+    <img src="/acacias/capamoral.png" alt="Bosque das Acácias" className="h-full w-full object-cover object-bottom" />
   </div>
   <div className="p-6">
     <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
@@ -291,6 +288,25 @@ export default function Home() {
     </a>
   </div>
 </div>
+
+{/* CARD 7 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img src="/patio caminho/patio.png" alt="Pátio Caminho" className="h-full w-full object-cover object-bottom" />
+  </div>
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Pátio Caminho</h3>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos com 1 suíte</p>
+      <p>Iputinga • Recife</p>
+      <p>A partir de R$ 299.000,00</p>
+    </div>
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20P%C3%A1tio%20Caminho.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
+      Quero conhecer o Pátio Caminho
+    </a>
+  </div>
+</div>
 </div>
 
         </div>
@@ -338,7 +354,7 @@ export default function Home() {
 
       <p className="mt-5 leading-7 text-slate-600">
         À frente da Eleva está <strong className="text-slate-900">Andreza Pinheiro</strong>,
-        Diretora Executiva, profissional com mais de 15 anos de experiência
+        Diretora Executiva, profissional com mais de 18 anos de experiência
         no mercado imobiliário. Ao longo de sua trajetória, atuou em grandes
         empresas e construtoras, construindo uma visão ampla sobre o mercado
         e, principalmente, sobre as pessoas que fazem parte dele.
