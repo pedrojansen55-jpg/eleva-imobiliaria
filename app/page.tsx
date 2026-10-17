@@ -65,11 +65,11 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 
               <a
-                href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Eleva%20Imobili%C3%A1ria%20e%20gostaria%20de%20conhecer%20as%20oportunidades%20dispon%C3%ADveis."
-                className="rounded-lg bg-[#283765] px-7 py-4 text-center font-semibold text-white transition hover:bg-[#1E2948]"
-              >
-                Ver imóveis
-              </a>
+  href="#imoveis"
+  className="rounded-lg bg-[#283765] px-7 py-4 text-center font-semibold text-white transition hover:bg-[#1E2948]"
+>
+  Ver imóveis
+</a>
 
               <a
                 href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Eleva%20Imobili%C3%A1ria%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
