@@ -215,7 +215,11 @@ export default function Home() {
 {/* CARD 3 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img src="/acacias/capamoral.png" alt="Bosque das Acácias" className="h-full w-full object-cover" />
+    <img
+  src="/acacias/capamoral.png"
+  alt="Bosque das Acácias"
+  className="h-full w-full object-cover object-bottom"
+/>
   </div>
   <div className="p-6">
     <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
