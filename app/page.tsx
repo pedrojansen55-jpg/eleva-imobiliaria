@@ -171,38 +171,22 @@ export default function Home() {
 
            
 
+
 {/* CARD 1 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img
-      src="/caxanga/novacapa.png.jpeg"
-      alt="Caxangá Life Club"
-      className="h-full w-full object-cover"
-    />
+    <img src="/caxanga/novacapa.png.jpeg" alt="Caxangá Life Club" className="h-full w-full object-cover" />
   </div>
-
   <div className="p-6">
-    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-      Empreendimento
-    </p>
-
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Caxangá Life Club
-    </h3>
-
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Caxangá Life Club</h3>
     <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 e 3 quartos</p>
       <p>Caxangá • Recife</p>
       <p>2 quartos: R$ 362.000,00</p>
       <p>3 quartos: R$ 411.000,00</p>
     </div>
-
-    <a
-      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Caxang%C3%A1%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-    >
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Caxang%C3%A1%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
       Quero conhecer o Caxangá
     </a>
   </div>
@@ -211,35 +195,18 @@ export default function Home() {
 {/* CARD 2 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img
-      src="/candeias/candeiascapa.png.jpeg"
-      alt="Candeias Life Club"
-      className="h-full w-full object-cover"
-    />
+    <img src="/candeias/candeiascapa.png.jpeg" alt="Candeias Life Club" className="h-full w-full object-cover" />
   </div>
-
   <div className="p-6">
-    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-      Empreendimento
-    </p>
-
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Candeias Life Club
-    </h3>
-
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Candeias Life Club</h3>
     <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 e 3 quartos com suíte</p>
       <p>Candeias • Jaboatão dos Guararapes</p>
       <p>2 quartos: R$ 329.700,00</p>
       <p>3 quartos: R$ 356.100,00</p>
     </div>
-
-    <a
-      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Candeias%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-    >
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Candeias%20Life%20Club.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
       Quero conhecer o Candeias
     </a>
   </div>
@@ -248,34 +215,17 @@ export default function Home() {
 {/* CARD 3 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img
-      src="/acacias/capamoral.png"
-      alt="Bosque das Acácias"
-      className="h-full w-full object-cover"
-    />
+    <img src="/acacias/capamoral.png" alt="Bosque das Acácias" className="h-full w-full object-cover" />
   </div>
-
   <div className="p-6">
-    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-      Empreendimento
-    </p>
-
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Bosque das Acácias
-    </h3>
-
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Bosque das Acácias</h3>
     <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 quartos com suíte reversível</p>
       <p>Dois Carneiros • Jaboatão dos Guararapes</p>
       <p>A partir de R$ 219.000,00</p>
     </div>
-
-    <a
-      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Bosque%20das%20Ac%C3%A1cias.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-    >
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Bosque%20das%20Ac%C3%A1cias.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
       Quero conhecer o Bosque das Acácias
     </a>
   </div>
@@ -284,35 +234,56 @@ export default function Home() {
 {/* CARD 4 */}
 <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
   <div className="h-56 overflow-hidden">
-    <img
-      src="/vale dos guara/vale dos guara.png"
-      alt="Vale dos Guararapes"
-      className="h-full w-full object-cover"
-    />
+    <img src="/vale dos guara/vale dos guara.png" alt="Vale dos Guararapes" className="h-full w-full object-cover" />
   </div>
-
   <div className="p-6">
-    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">
-      Empreendimento
-    </p>
-
-    <h3 className="mt-2 text-xl font-bold text-slate-900">
-      Vale dos Guararapes
-    </h3>
-
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Vale dos Guararapes</h3>
     <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
       <p>2 quartos e 1 suíte</p>
       <p>Piedade • Jaboatão dos Guararapes</p>
       <p>A partir de R$ 359.000,00</p>
     </div>
-
-    <a
-      href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Vale%20dos%20Guararapes.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es."
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]"
-    >
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Vale%20dos%20Guararapes.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
       Quero conhecer o Vale dos Guararapes
+    </a>
+  </div>
+</div>
+
+{/* CARD 5 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img src="/Morata/morata.png" alt="Morata Living" className="h-full w-full object-cover" />
+  </div>
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Morata Living</h3>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos com 1 suíte</p>
+      <p>Imbiribeira • Recife</p>
+      <p>A partir de R$ 314.900,00</p>
+    </div>
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Morata%20Living.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
+      Quero conhecer o Morata Living
+    </a>
+  </div>
+</div>
+
+{/* CARD 6 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img src="/nature varzea/nature.png" alt="Nature Várzea" className="h-full w-full object-cover" />
+  </div>
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Nature Várzea</h3>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos</p>
+      <p>Várzea • Recife</p>
+      <p>A partir de R$ 231.600,00</p>
+    </div>
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Nature%20V%C3%A1rzea.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
+      Quero conhecer o Nature Várzea
     </a>
   </div>
 </div>
