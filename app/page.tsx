@@ -307,6 +307,44 @@ export default function Home() {
     </a>
   </div>
 </div>
+
+{/* CARD 8 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img src="/citta estancia/cittaestancia.png" alt="Città Estância" className="h-full w-full object-cover" />
+  </div>
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Città Estância</h3>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos</p>
+      <p>Jiquiá • Recife</p>
+      <p>A partir de R$ 255.000,00</p>
+    </div>
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Citt%C3%A0%20Est%C3%A2ncia.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
+      Quero conhecer o Città Estância
+    </a>
+  </div>
+</div>
+
+{/* CARD 9 */}
+<div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+  <div className="h-56 overflow-hidden">
+    <img src="/bosque recife/borape.png" alt="Bosque Recife" className="h-full w-full object-cover object-bottom" />
+  </div>
+  <div className="p-6">
+    <p className="text-xs font-bold uppercase tracking-wider text-[#283765]">Empreendimento</p>
+    <h3 className="mt-2 text-xl font-bold text-slate-900">Bosque Recife</h3>
+    <div className="mt-2 space-y-1 text-sm leading-6 text-slate-500">
+      <p>2 quartos</p>
+      <p>Guabiraba • Recife</p>
+      <p>A partir de R$ 220.000,00</p>
+    </div>
+    <a href="https://wa.me/5581994897832?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Bosque%20Recife.%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="mt-5 block rounded-lg border border-slate-300 px-4 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-[#F5F1E8]">
+      Quero conhecer o Bosque Recife
+    </a>
+  </div>
+</div>
 </div>
 
         </div>
